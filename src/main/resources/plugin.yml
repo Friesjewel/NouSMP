@@ -1,0 +1,12 @@
+name: NousMP
+version: 1.0
+main: me.nousmp.NousMP
+api-version: 1.20
+commands:
+  nousmp:
+    description: NousMP main command
+    permission: nousmp.admin
+permissions:
+  nousmp.admin:
+    default: op
+    description: Allows access to NousMP admin commands
